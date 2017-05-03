@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.padding-0 {
+	padding: 0!important;
+}
+.work {
+	font-family: 'Work Sans', sans-serif!important;
+}
+.all {
+	width: 75%;
+	margin: 0 auto;
+	color: #2d3c49;
+}
+.header {
+	padding: 10px 0;
+	width: 100%;
+	float: left;
+	border-bottom: 5px solid #7d97ad;
+}
+.header .logo {
+	float: left;
+}
+.header .name {
+	float: right;
+	text-align: right;
+	font-weight: 100;
+	text-transform: uppercase;
+}.header .name p{
+	font-size: 20px;
+}
+.cover {
+	background: url('img/topo.jpg') center center;
+	height: 400px;
+	width: 100%;
+	float: left;
+	margin: 25px 0;
+}
+.portfolio h2 {
+	font-size: 38px;
+	color: #7d97ad;
+	padding-right: 0!important;
+	padding-left: 0!important;
+}
+.portfolio figcaption {
+	font-size: 3em;
+	text-align: center;
+	text-transform: uppercase;
+}
+.portfolio p {
+	text-align: center;
+}
+@media (max-width: 991px	) {
+	.portfolio figcaption {
+    	font-size: 2em;
+	}
+}
+@media (max-width: 767px) {
+	.container {
+		padding-right: 0!important;
+		padding-left: 0!important;
+	}
+	.header .logo, .header .name, .portfolio {
+		text-align: center;
+	} 	
+	.portfolio img {
+		margin: 0 auto;
+	}
+	.portfolio figcaption {
+    	font-size: 3em;
+	}
+}
